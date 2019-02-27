@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<annotation> 
+  <folder>Southern Cross用</folder>  
+  <filename>Galaxy_0464.jpg</filename>  
+  <path>src/main/resources/data/Images/Galaxy_0464.jpg</path>  
+  <source> 
+    <database>Unknown</database> 
+  </source>  
+  <size> 
+    <width>416</width>  
+    <height>416</height>  
+    <depth>3</depth> 
+  </size>  
+  <segmented>0</segmented>  
+  <object> 
+    <name>Southern Cross</name>  
+    <pose>Unspecified</pose>  
+    <truncated>0</truncated>  
+    <difficult>0</difficult>  
+    <bndbox> 
+      <xmin>86</xmin>  
+      <ymin>252</ymin>  
+      <xmax>114</xmax>  
+      <ymax>280</ymax> 
+    </bndbox> 
+  </object>  
+  <object> 
+    <name>Southern Cross</name>  
+    <pose>Unspecified</pose>  
+    <truncated>0</truncated>  
+    <difficult>0</difficult>  
+    <bndbox> 
+      <xmin>128</xmin>  
+      <ymin>198</ymin>  
+      <xmax>144</xmax>  
+      <ymax>216</ymax> 
+    </bndbox> 
+  </object>  
+  <object> 
+    <name>Southern Cross</name>  
+    <pose>Unspecified</pose>  
+    <truncated>0</truncated>  
+    <difficult>0</difficult>  
+    <bndbox> 
+      <xmin>164</xmin>  
+      <ymin>300</ymin>  
+      <xmax>186</xmax>  
+      <ymax>326</ymax> 
+    </bndbox> 
+  </object>  
+  <object> 
+    <name>Southern Cross</name>  
+    <pose>Unspecified</pose>  
+    <truncated>0</truncated>  
+    <difficult>0</difficult>  
+    <bndbox> 
+      <xmin>244</xmin>  
+      <ymin>226</ymin>  
+      <xmax>265</xmax>  
+      <ymax>249</ymax> 
+    </bndbox> 
+  </object> 
+</annotation>

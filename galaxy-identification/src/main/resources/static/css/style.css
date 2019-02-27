@@ -1,0 +1,288 @@
+*{margin:0; padding:0; font-family: "寰蒋闆呴粦"; }
+.clearfix:after {
+   content:""; 
+   display: block; 
+   clear:both; 
+}
+html,body{width: 100%; height: 100%;}
+ul,li{list-style:none;}
+a{text-decoration:none;}
+.fl{float:left;}
+
+/*=============澶撮儴鏍峰紡============*/
+.header{
+	background: url(../img/bg.jpg) repeat-x;
+	padding:20px 20px 0;
+}
+.header h1{
+	color: #fff;
+	line-height: 60px;
+}
+.header p{
+	color:#cecece;
+	line-height: 20px;
+}
+
+
+
+
+
+/*nav*/
+
+.demo{ background: #a93538;padding: 2em 0; }
+nav.navbar.bootsnav{
+    border: none;
+    background: none;
+}
+nav.navbar.bootsnav ul.nav > li{
+    margin-right: 10px;
+}
+nav.navbar.bootsnav ul.nav > li:before{
+    content: "";
+    width: 2px;
+    height: 0;
+    background: #fff;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease 0s;
+}
+nav.navbar.bootsnav ul.nav > li:hover:before{ height: 25px; }
+nav.navbar.bootsnav ul.nav > li.megamenu-fw:before{ left: 11.3%; }
+nav.navbar.bootsnav ul.nav > li:after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+nav.navbar.bootsnav ul.nav > li:hover:after{
+    bottom: 20px;
+    opacity: 1;
+}
+nav.navbar.bootsnav ul.nav > li.megamenu-fw:after{ left: 11.3%; }
+nav.navbar.bootsnav ul.nav > li > a{
+    padding: 15px 15px 35px 15px;
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
+}
+nav.navbar.bootsnav ul.nav > li.dropdown > a{
+    padding: 15px 30px 35px 15px;
+}
+nav.navbar.bootsnav ul.nav > li > a:hover{ color: #fff; }
+nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after{
+    position: absolute;
+    margin: 0 0 0 7px;
+}
+nav.navbar.bootsnav ul.nav > li.dropdown > ul{
+    top: 120%;
+    transition: all 0.8s ease 0s;
+}
+nav.navbar.bootsnav ul.nav > li.dropdown.on > ul{
+    top: 100%;
+}
+.dropdown-menu.multi-dropdown{
+    position: absolute;
+    left: -100% !important;
+}
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content li{
+    font-size: 14px;
+    color: #6f6f6f;
+}
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title{
+    font-size: 16px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+@media only screen and (max-width:990px){
+    .dropdown-menu.multi-dropdown{ left: 0 !important; }
+    nav.navbar.bootsnav .navbar-toggle{
+        background: none;
+        color: #fff;
+    }
+    nav.navbar.bootsnav ul.nav > li{
+        margin-right: 0;
+    }
+    nav.navbar.bootsnav ul.nav > li:before{
+        width: 0;
+        height: 2px;
+        background: #dca342;
+        margin: 0;
+        bottom: 50%;
+        left: 0;
+    }
+    nav.navbar.bootsnav ul.nav > li:hover:before{
+        width: 25px;
+        height: 2px;
+    }
+    nav.navbar.bootsnav ul.nav > li.megamenu-fw:before{
+        left: 0;
+        bottom: 52%;
+    }
+    nav.navbar.bootsnav ul.nav > li:after,
+    nav.navbar.bootsnav ul.nav > li.megamenu-fw:after{
+        background: #dca342;
+        margin: 0;
+        bottom: 50%;
+        left: auto;
+        right: 0;
+    }
+    nav.navbar.bootsnav ul.nav > li:hover:after{
+        bottom: 42%;
+        right: 90%;
+    }
+    nav.navbar.bootsnav ul.nav > li:hover.megamenu-fw:after{
+        bottom: 51.3%;
+    }
+    nav.navbar.bootsnav.navbar-mobile ul.nav > li > a{
+        padding: 15px;
+        text-align: center;
+    }
+    nav.navbar.bootsnav ul.nav > li > a,
+    nav.navbar.bootsnav ul.nav > li > a:hover{
+        color: #333;
+    }
+    nav.navbar.bootsnav ul.nav > li.dropdown > ul{ top: 100%; }
+    nav.navbar.bootsnav ul.nav > li.dropdown.on:before,
+    nav.navbar.bootsnav ul.nav > li.dropdown.on:after{
+        display: none;
+    }
+    nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title{
+        font-size: 14px;
+        font-weight: normal;
+    }
+}
+
+
+
+
+/*鍥剧墖鍖归厤*/
+.pic-match{
+	/*background: #199cc4;*/
+	background: url(../img/bg.jpg);
+	margin-bottom:20px;
+	padding:10px;
+}
+.pic-match span{
+	font-size:16px;
+}
+.pic-match p{
+	margin-top:20px;
+	color: #D5D5D5;
+	font-size: 16px;
+	line-height: 30px;
+}
+.pic-match img{
+	background: rgba(255,255,255,0.6);
+	padding:6px;
+}
+
+@media(min-width:768px){
+	
+}
+
+
+/*杩涘害鏉�*/
+.progress-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 20px;
+}
+.progress{
+    height: 20px;
+    background: #171b3c;
+    border-radius: 20px;
+    border: 1px solid #000;
+    box-shadow: 0 2px 2px #4f4c4c;
+    margin-bottom: 40px;
+    overflow: visible;
+    position: relative;
+}
+.progress .progress-bar{
+    border-radius: 20px;
+    border:  1px solid #000;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s;
+}
+.progress .progress-value{
+    width: 65px;
+    height: 25px;
+    line-height: 25px;
+    background: #171b3c;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 0 0 15px 15px;
+    border: 1px solid #000;
+    border-top: none;
+    box-shadow: 0 2px 2px #4f4c4c;
+    position: absolute;
+    bottom: -25px;
+    right: 60px;
+}
+@-webkit-keyframes animate-positive{
+    0% { width: 0; }
+}
+@keyframes animate-positive{
+    0% { width: 0; }
+}  
+
+
+
+
+/*棣栭〉鍥剧墖涓婁紶*/
+.index-main{
+	background: url(../img/main-bg.jpg);
+	margin-top:2px;
+	padding:160px 0;
+}
+
+.imgupload{
+	width: 160px;
+	border-radius: 10px;
+	margin:40px auto 0;
+}
+.toUploadPageBtn{
+	width:160px;
+	border-radius: 10px;
+	margin:40px auto 0;
+}
+.uploadraption {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+.uploadraption h4{
+	font-size: 30px;
+	line-height: 60px;
+	color: #f8f8f8;
+	text-shadow: 1px 1px 1px #000;
+}
+.uploadraption p{
+	color: #d5d5d5;
+	font-size: 18px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+
+
+
+
+
+

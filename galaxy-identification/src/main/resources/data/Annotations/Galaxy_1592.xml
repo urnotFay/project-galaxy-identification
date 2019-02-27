@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<annotation> 
+  <folder>Messier 94</folder>  
+  <filename>Galaxy_1592.jpg</filename>  
+  <path>src/main/resources/data/Images/Galaxy_1592.jpg</path>  
+  <source> 
+    <database>Unknown</database> 
+  </source>  
+  <size> 
+    <width>416</width>  
+    <height>416</height>  
+    <depth>3</depth> 
+  </size>  
+  <segmented>0</segmented>  
+  <object> 
+    <name>Messier 94</name>  
+    <pose>Unspecified</pose>  
+    <truncated>0</truncated>  
+    <difficult>0</difficult>  
+    <bndbox> 
+      <xmin>36</xmin>  
+      <ymin>38</ymin>  
+      <xmax>380</xmax>  
+      <ymax>379</ymax> 
+    </bndbox> 
+  </object> 
+</annotation>

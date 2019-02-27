@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<annotation> 
+  <folder>1300</folder>  
+  <filename>Galaxy_0604.jpg</filename>  
+  <path>src/main/resources/data/Images/Galaxy_0604.jpg</path>  
+  <source> 
+    <database>Unknown</database> 
+  </source>  
+  <size> 
+    <width>416</width>  
+    <height>416</height>  
+    <depth>3</depth> 
+  </size>  
+  <segmented>0</segmented>  
+  <object> 
+    <name>NGC 1300</name>  
+    <pose>Unspecified</pose>  
+    <truncated>0</truncated>  
+    <difficult>0</difficult>  
+    <bndbox> 
+      <xmin>88</xmin>  
+      <ymin>67</ymin>  
+      <xmax>354</xmax>  
+      <ymax>349</ymax> 
+    </bndbox> 
+  </object> 
+</annotation>

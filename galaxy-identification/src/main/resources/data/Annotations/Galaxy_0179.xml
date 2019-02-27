@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<annotation> 
+  <folder>Ursa Major用</folder>  
+  <filename>Galaxy_0179.jpg</filename>  
+  <path>src/main/resources/data/Images/Galaxy_0179.jpg</path>  
+  <source> 
+    <database>Unknown</database> 
+  </source>  
+  <size> 
+    <width>416</width>  
+    <height>416</height>  
+    <depth>3</depth> 
+  </size>  
+  <segmented>0</segmented>  
+  <object> 
+    <name>Ursa Major</name>  
+    <pose>Unspecified</pose>  
+    <truncated>0</truncated>  
+    <difficult>0</difficult>  
+    <bndbox> 
+      <xmin>140</xmin>  
+      <ymin>267</ymin>  
+      <xmax>161</xmax>  
+      <ymax>284</ymax> 
+    </bndbox> 
+  </object>  
+  <object> 
+    <name>Ursa Major</name>  
+    <pose>Unspecified</pose>  
+    <truncated>0</truncated>  
+    <difficult>0</difficult>  
+    <bndbox> 
+      <xmin>140</xmin>  
+      <ymin>228</ymin>  
+      <xmax>159</xmax>  
+      <ymax>246</ymax> 
+    </bndbox> 
+  </object>  
+  <object> 
+    <name>Ursa Major</name>  
+    <pose>Unspecified</pose>  
+    <truncated>0</truncated>  
+    <difficult>0</difficult>  
+    <bndbox> 
+      <xmin>191</xmin>  
+      <ymin>211</ymin>  
+      <xmax>215</xmax>  
+      <ymax>234</ymax> 
+    </bndbox> 
+  </object>  
+  <object> 
+    <name>Ursa Major</name>  
+    <pose>Unspecified</pose>  
+    <truncated>0</truncated>  
+    <difficult>0</difficult>  
+    <bndbox> 
+      <xmin>212</xmin>  
+      <ymin>245</ymin>  
+      <xmax>227</xmax>  
+      <ymax>262</ymax> 
+    </bndbox> 
+  </object>  
+  <object> 
+    <name>Ursa Major</name>  
+    <pose>Unspecified</pose>  
+    <truncated>0</truncated>  
+    <difficult>0</difficult>  
+    <bndbox> 
+      <xmin>250</xmin>  
+      <ymin>251</ymin>  
+      <xmax>267</xmax>  
+      <ymax>272</ymax> 
+    </bndbox> 
+  </object>  
+  <object> 
+    <name>Ursa Major</name>  
+    <pose>Unspecified</pose>  
+    <truncated>0</truncated>  
+    <difficult>0</difficult>  
+    <bndbox> 
+      <xmin>281</xmin>  
+      <ymin>260</ymin>  
+      <xmax>303</xmax>  
+      <ymax>279</ymax> 
+    </bndbox> 
+  </object>  
+  <object> 
+    <name>Ursa Major</name>  
+    <pose>Unspecified</pose>  
+    <truncated>0</truncated>  
+    <difficult>0</difficult>  
+    <bndbox> 
+      <xmin>334</xmin>  
+      <ymin>242</ymin>  
+      <xmax>353</xmax>  
+      <ymax>263</ymax> 
+    </bndbox> 
+  </object> 
+</annotation>
